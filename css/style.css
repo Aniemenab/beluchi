@@ -45,6 +45,7 @@ body {
         width: 100%;
         height: 60px;
         inset: 10px 0px 20px 10px;
+        top: 33rem;
         bottom: 0;
         position: fixed;
         transition: 0.4s;
