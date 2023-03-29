@@ -94,6 +94,13 @@
     position: absolute;
     z-index: 99999;
    }
+   @media screen and (max-width:400px) {
+    #preloader{
+        width:100%;
+        height: 700px;
+      
+       }
+   }
    .loader {
     position: relative;
     width: 100px;
