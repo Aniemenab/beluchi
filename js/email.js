@@ -19,7 +19,7 @@ const texthelp = document.getElementById('message')
 const submit = document.getElementsByClassName('form-contact');
 const mesAlt = 'Message Successful'
 document.addEventListener('submit', (e) => {
-  // e.preventDefault();
+  e.preventDefault();
   console.log("Clicked");
 
   // Email.send({
