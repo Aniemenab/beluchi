@@ -19,19 +19,10 @@ const texthelp = document.getElementById('message')
 const submit = document.getElementsByClassName('form-contact');
 const mesAlt = 'Message Successful'
 document.addEventListener('submit', (e) => {
-  // e.preventDefault();
+  e.preventDefault();
   console.log("Clicked");
 
-  // Email.send({
-  //   SecureToken: "5e11c05b-0fc2-4d36-a559-f12278dd7820",
-  //   To: 'aniemenabeluchi@gmail.com',
-  //   From: "aniemenabeluchi@gmail.com",
-  //   Subject: "testing mic",
-  //   Body: "text done by me",
-  // }).then(
-  //   message => alert(message)
-  // );
-  // client.UseDefaultCredentials = true;
+
 
   let ebody = `<b>Name: </b> ${fname.value}&nbsp; ${lname.value}
   <br>
@@ -41,8 +32,10 @@ document.addEventListener('submit', (e) => {
   <br>
   <b>Message: </b>${texthelp.value}
   `
+
+
   Email.send({
-    Host : "smtp.elasticemail.com",
+    Host: "smtp.elasticemail.com",
     Username: "aniemenabeluchi@gmail.com",
     Password: "D120CE9D505742067C873A0E51AEEA09D936",
     To: 'aniemenabeluchi@gmail.com',
@@ -52,7 +45,27 @@ document.addEventListener('submit', (e) => {
   }).then(
     message => alert(mesAlt)
   );
+  fname.value = "";
+  lname.value = "";
+  email.value = "";
+  phone.value = "";
+  texthelp.value = "";
 })
+
+// const btn = document.getElementById('btn2');
+// btn.addEventListener('click', function handleClear(event) {
+//   event.preventDefault();
+//   const fname = document.getElementById('fname');
+//   const lname = document.getElementById('lname');
+//   const email = document.getElementById('email');
+//   const phone = document.getElementById('phone');
+//   const texthelp = document.getElementById('message');
+  
+//   console.log(fname.value)
+
+// })
+
+
 // submit.addEventListener('submit', (e)=>{
 //   e.preventDefault();
 //   console.log("Clicked")
