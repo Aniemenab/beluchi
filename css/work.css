@@ -1,0 +1,538 @@
+/* =====================WORKS===================== */
+
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    padding: 20px;
+}
+
+.tab_carry {
+    width: 500px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-around !important;
+    /* background-color: red; */
+}
+
+@media screen and (max-width:610px) {
+    .tab_carry {
+        width: auto;
+        height: auto;
+        margin: auto;
+        display: flex;
+        justify-content: space-around !important;
+        /* background-color:blue; */
+        flex-wrap: wrap;
+    }
+
+
+    .tab button {
+        background-color: red;
+        padding: 18px !important;
+    }
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    padding: 20px 25px;
+    transition: 0.3s;
+    font-size: 17px;
+    color: white;
+    border-radius: 15px;
+}
+
+
+.tab button:hover {
+    background-color: #2b749f;
+}
+
+
+.tab button.active {
+    background-color: #461497;
+    border-radius: 15px;
+    color: white;
+}
+
+
+.tabcontent {
+    display: none;
+    border-top: none;
+}
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+.work {
+    width: 100%;
+    height: auto;
+    background-color: #05010a;
+    padding-top: 1rem;
+}
+
+.work_container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.work-head {
+    width: 100%;
+    /* background-color: orange; */
+}
+
+.work-head h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Alegreya', serif;
+}
+
+.work_item {
+    width: auto;
+    height: auto;
+}
+
+
+figure.workcover {
+    font-family: 'Alegreya', serif;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 220px;
+    max-width: 300px;
+    max-height: 250px;
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+    text-align: left;
+    background-color: #07090c;
+    font-size: 16px;
+    -webkit-perspective: 50em;
+    perspective: 50em;
+
+}
+
+figure.workcover * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+
+figure.workcover img {
+    opacity: 1;
+    width: 100%;
+    -webkit-transform-origin: 50% 100%;
+    -ms-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+}
+
+figure.workcover figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    -webkit-transform: rotateX(-90deg);
+    transform: rotateX(-90deg);
+    -webkit-transform-origin: 50% -50%;
+    -ms-transform-origin: 50% -50%;
+    transform-origin: 50% -50%;
+    z-index: 1;
+    opacity: 0;
+    padding: 20px 30px;
+}
+
+figure.workcover h3,
+figure.workcover p {
+    line-height: 1.5em;
+}
+
+figure.workcover h3,
+h4 {
+    margin: 0;
+    font-weight: 800;
+    text-transform: uppercase;
+
+}
+
+figure.workcover h3,
+h4 {
+
+    background-color: var(--clr);
+    width: auto;
+
+    padding: 3px 0 4px 7px;
+    border-radius: 10px;
+}
+
+figure.workcover p {
+    font-size: 0.8em;
+    font-weight: 500;
+    margin: 9px 0 15px;
+}
+
+figure.workcover .more {
+    border: 2px solid #ffffff;
+    padding: 0.5em 1em;
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+}
+
+figure.workcover .more:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+figure.workcover:hover img,
+figure.workcover.hover img {
+    -webkit-transform: rotateX(90deg);
+    transform: rotateX(90deg);
+    opacity: 0;
+}
+
+figure.workcover:hover figcaption,
+figure.workcover.hover figcaption {
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+    opacity: 1;
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
+@media screen and (max-width:600px) {
+    figure.workcover {
+
+        min-width: 220px;
+        max-width: 310px;
+        max-height: 220px;
+        width: 100%;
+        height: auto;
+        padding-bottom: 15px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    figure.workcover {
+        margin: .6rem auto;
+
+    }
+}
+
+figure.workcover2 {
+    font-family: 'Raleway', Arial, sans-serif;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: auto;
+    max-width: auto;
+    max-height: auto;
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+    text-align: left;
+    background-color: #07090c;
+    font-size: 16px;
+    -webkit-perspective: 50em;
+    perspective: 50em;
+}
+
+figure.workcover2 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+
+figure.workcover2 img {
+    opacity: 1;
+    width: 100%;
+    -webkit-transform-origin: 50% 100%;
+    -ms-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+}
+
+figure.workcover2 figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    -webkit-transform: rotateX(-90deg);
+    transform: rotateX(-90deg);
+    -webkit-transform-origin: 50% -50%;
+    -ms-transform-origin: 50% -50%;
+    transform-origin: 50% -50%;
+    z-index: 1;
+    opacity: 0;
+    padding: 20px 30px;
+}
+
+figure.workcover2 h3,
+figure.workcover2 p {
+    line-height: 1.5em;
+}
+
+figure.workcover2 h3,
+h4 {
+    margin: 0;
+    font-weight: 800;
+    text-transform: uppercase;
+
+}
+
+figure.workcover2 h3,
+h4 {
+
+    background-color: var(--clr);
+    width: auto;
+    padding-left: 7px;
+    border-radius: 10px;
+}
+
+figure.workcover2 p {
+    font-size: 0.8em;
+    font-weight: 500;
+    margin: 0 0 15px;
+}
+
+figure.workcover2 .more {
+    border: 2px solid #ffffff;
+    padding: 0.5em 1em;
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+}
+
+figure.workcover2 .more:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+figure.workcover2:hover img,
+figure.workcover2.hover img {
+    -webkit-transform: rotateX(90deg);
+    transform: rotateX(90deg);
+    opacity: 0;
+}
+
+figure.workcover2:hover figcaption,
+figure.workcover2.hover figcaption {
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+    opacity: 1;
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
+@media screen and (max-width:600px) {
+    figure.workcover2 {
+
+        min-width: 220px;
+        max-width: 310px;
+        max-height: 220px;
+        width: 100%;
+        height: auto;
+        padding-bottom: 15px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    figure.workcover2 {
+        margin: .6rem auto;
+
+    }
+}
+
+@media screen and (max-width:420px) {}
+
+
+@media screen and (max-width:420px) {
+    figure.workcover {
+
+        margin-left: 1rem;
+    }
+
+    figure.workcover2 {
+
+        margin-left: 1rem;
+    }
+}
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {
+    opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 50px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
+}
+
+.modal-content {
+    margin: auto;
+    width: 30%;
+}
+
+
+
+
+.modal-content,
+#caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 997px) {
+    .modal-content {
+        width: 40%;
+        margin: auto;
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .modal-content {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .modal {
+        margin-left: -3.1rem;
+    }
+}
+
+/* =============== Grpahics================== */
+.graphics_body {
+    width: 100%;
+    height: auto;
+    padding-bottom: 3rem;
+    /* background-color: RED; */
+    overflow-x: hidden;
+}
+
+
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+ .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 0 4px;
+    /* background-color: red; */
+    justify-content: center;
+}
+
+.column {
+    -ms-flex: 23%;
+    flex: 26%;
+    max-width: 25%;
+    padding: 0 4px;
+    
+}
+
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 800px) {
+    .column {
+        /* background-color: red; */
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+/* ======================END OF WORKS=================== */
