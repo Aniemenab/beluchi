@@ -86,7 +86,7 @@
    }
    #preloader{
     width:100%;
-    height: 663px;
+    height: 900px;
     display: flex;
     justify-content: center;
     padding-top: 16rem;
@@ -129,40 +129,40 @@
    .loader-square:nth-of-type(0) {
     animation-delay: 0s;
    
-    background-color: #352222;
+    background-color: #f66363;
    }
    
    .loader-square:nth-of-type(1) {
     animation-delay: -1.4285714286s;
-    background-color: #30281a;
+    background-color: #f1b753;
    }
    
    .loader-square:nth-of-type(2) {
     animation-delay: -2.8571428571s;
-    background-color: #313f18;
+    background-color: #c1e97c;
    }
    
    .loader-square:nth-of-type(3) {
     animation-delay: -4.2857142857s;
-    background-color: #2b3a1b;
+    background-color: #eb0bff;
    }
    
    .loader-square:nth-of-type(4) {
     animation-delay: -5.7142857143s;
-    background-color: #0f2425;
+    background-color: #46e4ec;
    }
    
    .loader-square:nth-of-type(5) {
     animation-delay: -7.1428571429s;
-    background-color: #281e31;
+    background-color: #fa60ce;
    }
    
    .loader-square:nth-of-type(6) {
     animation-delay: -8.5714285714s;
-    background-color: #381a1c;
+    background-color: #e73d49;
    }
    
    .loader-square:nth-of-type(7) {
     animation-delay: -10s;
-    background-color: #3f1a31;
+    background-color: #fed794;
    }
