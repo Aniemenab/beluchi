@@ -447,6 +447,12 @@ margin-top: -.3rem;
 @media screen and (max-width:371px) {
     .co {
         width: 100% !important;
+        /* padding-top: .3rem; */
+    }
+}
+@media screen and (max-width:351px) {
+    .co {
+
         padding-top: .3rem;
     }
 }
